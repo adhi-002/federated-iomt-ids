@@ -1,0 +1,20 @@
+# Public repository allowlist: keep reference documents and local data private.
+/*
+!/.gitignore
+!/README.md
+!/Project Work/
+/Project Work/*
+!/Project Work/prototype/
+/Project Work/prototype/*
+!/Project Work/prototype/*.py
+!/Project Work/prototype/README.md
+!/Project Work/prototype/requirements.txt
+__pycache__/
+*.py[cod]
+.env*
+.venv/
+venv/
+results/
+data/
+*.csv
+*.joblib
